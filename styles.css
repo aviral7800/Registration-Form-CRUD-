@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #99ddff;
+    padding: 0 10px;
+
+}
+.container{
+    
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.container .tittle{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #59b4e1;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container .form{
+    width: 100%;
+}
+.container .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.container .form .input_field label{
+    
+    width: 200px;
+    margin-right:60px ;
+    font-size: 14px;
+}
+.container .form .input_field .input{
+    width: 100%;
+    outline: none;
+    border: 2px solid #99ddff;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 05s ease;
+}
+.container .form .input_field .selectbox{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: 2px solid #99ddff;
+    border-radius: 3px;
+}
+.container .form .input_field .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: #99ddff;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+
+}
+.container .form .input_field:last-child{
+    margin-bottom: 0;
+}
+.container .form .input_field .btn:hover{
+    background: #59b4e1;
+}
+@media(max-width:420px)
+{
+    .container .form .input_field{
+        flex-direction: column;
+        align-items: flex-start;
+}
+.container .form .input_field label{
+    margin-bottom: 5px;
+
+}
+}
+.skills-section {
+    margin-top: 10px;
+    justify-content: space-between;
+    text-align: left;
+
+}
+
+.checkbox-row {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding-left: 180px;
+    padding-bottom: 10px;
+}
